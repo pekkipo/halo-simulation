@@ -1,0 +1,16 @@
+ \begindata
+
+        PATH_VALUES  = ( 'kernels', 'kernels/lsk', 'kernels/spk', 'kernels/pck')
+
+        PATH_SYMBOLS = ( 'KERNEL', 'lsk', 'spk', 'pck'
+                         )
+
+        KERNELS_TO_LOAD = (  '$lsk/naif0012.tls',
+                             '$spk/de430.bsp',
+			     '$spk/de432s.bsp',
+			     '$pck/DE403-MASSES.TPC',
+			     '$spk/L2_de431.bsp',
+		 	     '$KERNEL/dynamic_frame_l2.txt',
+			     '$KERNEL/eclipdate.txt'
+                             
+      )
